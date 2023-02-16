@@ -1,0 +1,127 @@
+.main{
+    display: inline-block;
+    background-image: url(./sahara\ desert.jpg);
+    margin:0px;
+}
+.camel{
+    background-image: url(./logo.png);
+    background-size: cover;
+    height:80px;
+    width: 80px;
+    position:absolute;
+    top:50px;
+    left:100px;
+}
+.menu{
+    display: inline-block;
+    display: flex;
+    color:white;
+    position:absolute;
+    right:50px;
+    top:20px;    
+}
+.list{
+    padding:30px;
+}
+.logo{
+    background-image: url(./menu.png);
+    background-size: cover;
+    width:10px;
+    height:10px;
+}
+.sahra{
+    color:whitesmoke;
+    position:relative;
+    top:200px;
+    left:100px;
+}
+h1{
+    font-size:100px;
+    margin: 0px;
+}
+.but{
+    background-color: whitesmoke;
+    color:black;
+    width:200px;
+    padding:10px;
+    border-radius: 20px;
+    text-align: center;
+}
+.boxs{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    width:600px;
+    height:550px;
+    position:absolute;
+    right:50px;
+    top:100px;
+}
+.box{
+    height:240px;
+    width:250px;
+    border-radius: 10px;
+    padding-left: 10px;
+    color:whitesmoke;
+}
+.box:hover{
+    position:relative;
+    top:-15px;
+}
+.box1{
+    background-image: url(./S11.jpg);
+    background-size: cover;
+}
+.box2{
+    background-image: url(./pic-2.png);
+    background-size: cover;
+}
+.box3{
+    background-image: url(./pic-3.png);
+    background-size: cover;
+}
+.box4{
+    background-image: url(./pic-4.png);
+    background-size: cover;
+}
+@media (max-width:860px){
+    .boxs{
+        right:120px;
+        top:500px;
+        height: 1100px;
+    }
+    .box {
+        height: 250px;
+        width: 500px;
+    }
+    
+}
+@media (max-width:360px){
+    .camel{
+        height: 50px;
+        width:50px;
+        top:20px;
+        left:20px;
+    }
+    .menu{
+        right:10px;
+    }
+    .list{
+        padding:10px;
+    }
+    .sahra{
+        top:90px;
+        left:5px;
+        width:330px;
+    }
+    h1{
+        font-size:55px;
+    }
+    .boxs{
+        width:300px;
+        height: 1080px;
+        top:360px;
+        right:30px;
+    }
+}
